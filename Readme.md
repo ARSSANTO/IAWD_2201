@@ -16,32 +16,32 @@
 
 * Start Coding
     - To start Coding 1st we need to declare PHP like this
-        ```
-            <?php
-                echo "This is a PHP project";
-            ?>
-        ```
+
+    ```
+        <?php
+            echo "This is a PHP project";
+        ?>
+    ```
 
 * Variable declaration in PHP
     - To declare a variable in PHP must have to use the $ sign like 
-        ```
-            <?php
-                    $name = 'Atikur Rahaman Santo';
-                    echo "My name is ".name." ";
-            ?>
-        ```
+    ```
+        <?php
+                $name = 'Atikur Rahaman Santo';
+                echo "My name is ".name." ";
+        ?>
+    ```
     - Things we can't do to declare a variable
-        . Can't use numbers first like
-        . Can't use any symbols except `_`
-        . Can't use any space to declare a variable in PHP
-        . Can't use `-` symbol
-            ```
-            <!-- list of invalid variable declarations -->
-                <?php
-                    $1name
-                    $)name
-                    $.name
-                    $#name
-                    $f-name
-                ?>
-            ```
+    . Can't use numbers first like
+    . Can't use any symbols except `_`
+    . Can't use any space to declare a variable in PHP
+    . Can't use `-` symbol
+    ```
+        <?php
+            $1name
+            $)name
+            $.name
+            $#name
+            $f-name
+        ?>
+    ```
