@@ -24,7 +24,7 @@
     ```
 
 * Variable declaration in PHP
-    - To declare a variable in PHP must have to use the $ sign like 
+    - To declare a variable in PHP must have to use the $ symbol like 
     ```
         <?php
                 $name = 'Atikur Rahaman Santo';
