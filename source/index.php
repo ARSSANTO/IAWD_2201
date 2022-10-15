@@ -8,21 +8,52 @@
 </head>
 <body>
     <?php
-        $tx = 0 or null 
-        $sx = 5;
-        if ($tx == null) {
-            echo "@var tx is null";
-          } elseif ($tx == 0) {
-                echo "@var tx is 0";
-          } elseif ($tx > $sx) {
-                echo "@var tx is getter then @var sx";
-          } elseif ($tx < $sx) {
-                echo "@var tx is less then @var sx";
-          } elseif ($tx == $sx) {
-                echo "@var tx is less then @var sx";
-          } else {
-                echo "Invalid Result"
-          }
+
+/* Number swap  */
+      $var_a = 55;  
+      $var_b = 35;  
+      echo 'Variables value before swap <br> <br>';
+      echo 'variable a = '.$var_a.' variable b =  '.$var_b ;
+          $var_swap_1 = $var_b;
+          $var_swap_2 = $var_a;
+      echo "Variables value after swap <br> <br>";  
+      echo "Variable_1 = ".$var_swap_1."  Variable_2 = ".$var_swap_2;  
+      echo "<br> <br>";
+
+/* Even / Odd checker function */
+      echo "Detarmine Even or Odd number through PHP";
+      echo "<br> <br>";
+      function Numbercheck(){
+            $var_num = 19;    
+            if($var_num % 2 == 0){
+                echo "The Number is Even"; 
+            }
+            else{
+                echo "The Number is Odd";
+            }
+      }
+      Numbercheck();
+/* Switch Case */ 
+      echo "<br> <br>";
+      function SwitchCase(){
+            $X_number = 70;
+           switch ($X_number) {
+            case  50;
+            echo "The number is 50";
+            break;
+            case  60;
+            echo "The number is 60";
+            break;
+            case  70;
+            echo "The number is 70";
+            break;
+            default;
+            echo "The number nnull";
+            break;
+           }
+      }
+      SwitchCase();
+
     ?>
 </body>
 </html>
